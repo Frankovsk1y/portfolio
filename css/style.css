@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap');
+body{
+    background-color: black;
+}
+.bg__container__1{
+    background-image: url(../assets/images/bg.jpg);
+    max-width: 1440px;
+    height: 910px;
+    margin: 0 auto;
+}
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    color: white;
+}
+.logo:hover{
+    color: #BDAE82;
+}
+.nav__list{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+.nav__link{
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-size: 20px;
+}
+.nav__link:hover{
+    color: #BDAE82;
+}
+.language{
+    font-weight: bold;
+}
+.language:hover{
+    color: #BDAE82;
+}
+.bg__container__2{
+    max-width: 500px;
+    height: 330px;
+    margin: 250px 860px 330px 80px;
+}
+.bg__title{
+    font-family: merriweather;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.bg__text{
+    max-width: 470px;
+    height: 120px;
+    font-family: inter;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.bg__button{
+    max-width: 220px;
+    height: 55px;
+    background-color: #BDAE82;
+    display: flex;
+    justify-content: center;
+}
+.bg__button__text{
+    font-family: inter;
+    font-size: 20px;
+    background-color: #BDAE82;
+    border: 0;
+}
+.bg__button__text:hover{
+    color: white;
+}
+.skills__container{
+    max-width: 1440px;
+    height: 482px;
+    margin: 0 auto;
+}
+.skills__title{
+    max-width: 700;
+    height: 80px;
+    font-family: merriweather;
+    font-size: 40px;
+    font-weight: bold;
+    color: #BDAE82;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills__items{
+    max-width: 1400px;
+    height: 242px;
+    margin-top: 60px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.skills__item{
+    max-width: 320px;
+    height: 240px;
+}
+.skills__image{
+    display: flex;
+    margin: 0 auto;
+}
+.skills__header{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.skills__text{
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.skills__text__container{
+    max-width: 280px;
+    height: 72px;
+    margin: 0 20px;
+    line-height: 36px;
+}
+.portfolio__container{
+    max-width: 1440px;
+    height: 1500px;
+    margin: 0 auto;
+}
+.portfolio__buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.portfolio__title{
+    max-width: 700;
+    height: 80px;
+    font-family: merriweather;
+    font-size: 40px;
+    font-weight: bold;
+    color: #BDAE82;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
